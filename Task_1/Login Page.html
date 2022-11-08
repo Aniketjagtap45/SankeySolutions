@@ -1,0 +1,56 @@
+<html>
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width,initial-scale=1.0">    <!-- responsiveness purpose meta tag-->
+		<title>
+		Sankey Solutions
+		</title>
+		
+		<link rel="stylesheet" href="Style.css">  
+	</head>
+	<body>
+		<section>
+			<div class="imagebox">
+			<img src="frontImage.jfif">
+			</div>
+			<div class="contentbox">
+			<div class="formbox">
+			
+				<label>Welcome back!</label>
+			
+			<h2>Login to your account</h2>
+			<form name="myForm" onsubmit="return validateForm()">
+				<div class="inputbox">
+					<span>Email</span>
+					<input type="text" name="Email" value="">
+					<span id="emailcheck"></span>
+				</div>
+				<div class="inputbox">
+					<span>Password</span>
+					<input type="password" name="Password" value="">
+					<span id="passwordcheck"></span>
+				</div>
+				<div class="remember">
+					<label><input type="checkbox" name="">Remember me</label>
+					<a href="#">Forgot password?</a>
+				</div>
+				
+				<div class="inputbox">
+					<input type="submit" value="Login now">
+				</div>
+				<div class="inputbox2">
+					<input type="submit" value="or sign-in with google">
+				</div>
+		
+				<div class="inputbox">
+					<p>Don't have an account?<a href="#">Join free today</a></p>
+				</div>
+			</form>
+			</div>
+			</div>
+		</section>
+		
+		<script src="validate.js"></script>
+	</body>
+</html>
